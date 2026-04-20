@@ -6,54 +6,99 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <style>
     body {
-      font-family: Arial, sans-serif;
+      font-family: "Segoe UI", Arial, sans-serif;
       margin: 0;
-      background: #0d47a1; /* Blue background */
-      color: white; /* White text */
-    }
-    header {
-      background: #b6e3b6; /* Light green header */
+      background: linear-gradient(135deg, #3a7bd5, #00d2ff);
       color: white;
-      padding: 2rem 1.5rem;
+    }
+
+    header {
+      background: rgba(210, 255, 230, 0.85);
+      color: #00332e;
+      padding: 2.5rem 1.5rem;
       text-align: center;
+      backdrop-filter: blur(8px);
+      box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+      border-bottom: 2px solid rgba(255,255,255,0.4);
     }
+
     header h1 {
-      margin: 0 0 0.5rem;
+      margin: 0;
+      font-size: 2.8rem;
+      font-weight: 700;
+      letter-spacing: 1px;
     }
+
+    header p {
+      margin-top: 0.5rem;
+      font-size: 1.15rem;
+      opacity: 0.9;
+    }
+
     main {
       max-width: 900px;
-      margin: 2rem auto;
-      padding: 0 1.5rem 3rem;
-      background: rgba(255, 255, 255, 0.12);
-      border-radius: 10px;
+      margin: 3rem auto;
+      padding: 2.5rem;
+      background: rgba(255, 255, 255, 0.18);
+      border-radius: 18px;
+      backdrop-filter: blur(12px);
+      box-shadow: 0 8px 30px rgba(0,0,0,0.25);
     }
+
     section {
-      margin-bottom: 2rem;
+      margin-bottom: 2.5rem;
     }
+
     h2 {
-      border-bottom: 2px solid white;
+      border-bottom: 2px solid rgba(255,255,255,0.6);
       padding-bottom: 0.5rem;
-      margin-bottom: 1rem;
-      color: white;
+      margin-bottom: 1.2rem;
+      font-size: 1.9rem;
+      font-weight: 600;
     }
+
     h3, h4 {
-      color: white;
+      color: #eaffff;
+      margin-top: 1.2rem;
     }
+
     a {
-      color: #c2f0ff;
+      color: #d9faff;
+      font-weight: 600;
       text-decoration: none;
+      transition: 0.2s ease;
     }
+
     a:hover {
-      text-decoration: underline;
+      color: white;
+      text-shadow: 0 0 8px rgba(255,255,255,0.8);
     }
+
     ul {
       padding-left: 1.2rem;
+      line-height: 1.6;
     }
+
+    .project {
+      background: rgba(255,255,255,0.12);
+      padding: 1rem;
+      border-radius: 12px;
+      margin-bottom: 1rem;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+      transition: transform 0.2s ease;
+    }
+
+    .project:hover {
+      transform: translateY(-4px);
+    }
+
     footer {
       text-align: center;
-      padding: 1rem;
+      padding: 1.5rem;
       font-size: 0.9rem;
       color: white;
+      opacity: 0.85;
+      margin-top: 2rem;
     }
   </style>
 </head>
@@ -109,7 +154,7 @@
       <h3>Education & Achievements</h3>
       <p><strong>York University — B.S. Cybersecurity</strong><br>
       August 2024 – May 2026 | York, NE<br>
-      GPA: 3.74 — Dean’s List (Fall 2024, Spring 2025)<br>
+      GPA: 3.74 — Dean’s List (Fall 2024 & Spring 2025)<br>
       Business Club (Fall 2024)<br>
       FBLA Secretary (Spring 2025), FBLA Vice President (Fall 2025–Spring 2026)<br>
       Selected for FBLA Cyber Security Challenge — Summer 2025, Dallas, Texas</p>
@@ -125,18 +170,18 @@
       <p>June 2025 – August 2025 | Blair, NE</p>
       <ul>
         <li>Routed incoming customer IT issues to appropriate technical teams</li>
-        <li>Created and managed support tickets using internal systems</li>
+        <li>Created and managed support tickets using internal tracking systems</li>
         <li>Monitored network performance and escalated critical alerts</li>
-        <li>Collaborated with cross-functional teams for timely resolution</li>
-        <li>Troubleshot basic connectivity and hardware issues</li>
-        <li>Documented procedures and contributed to knowledge base</li>
+        <li>Collaborated with cross-functional teams to ensure timely resolution</li>
+        <li>Utilized diagnostic tools to troubleshoot connectivity and hardware issues</li>
+        <li>Documented procedures and contributed to knowledge base updates</li>
       </ul>
 
-      <h4>York University — Outside & Middle Hitter (Volleyball)</h4>
+      <h4>York University — Outside & Middle Hitter (Volleyball Team)</h4>
       <p>August 2024 – November 2026</p>
       <ul>
-        <li>Built strong relationships with teammates and coaches</li>
-        <li>Demonstrated discipline, teamwork, and leadership</li>
+        <li>Fostered strong relationships with teammates and coaching staff</li>
+        <li>Demonstrated professionalism, teamwork, and discipline</li>
         <li>Balanced academic and athletic excellence</li>
       </ul>
 
@@ -144,11 +189,11 @@
       <p>November 2024 – May 2025</p>
       <ul>
         <li>Mentored athletes in skill development and sportsmanship</li>
-        <li>Developed structured practice plans</li>
+        <li>Developed structured practice sessions</li>
         <li>Communicated progress with players and parents</li>
       </ul>
 
-      <h4>Brewton-Parker College — Volleyball & Track Athlete</h4>
+      <h4>Brewton-Parker College — Outside Hitter & Track Athlete</h4>
       <p>August 2022 – April 2024</p>
       <ul>
         <li>Maintained excellence in volleyball and track events</li>
@@ -159,7 +204,7 @@
       <h4>City of Montgomery — Mayor’s Internship Program</h4>
       <p>June 2023 – August 2023</p>
       <ul>
-        <li>Coordinated city-wide events and outreach</li>
+        <li>Coordinated city-wide events and outreach initiatives</li>
         <li>Strengthened public relations with local communities</li>
         <li>Streamlined communication between constituents and officials</li>
         <li>Managed personnel rosters to improve productivity</li>
