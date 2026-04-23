@@ -1,194 +1,173 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Naomi Taake | Cybersecurity Portfolio</title>
-
-  <style>
+<meta charset="UTF-8">
+<title>Naomi Taake – Cybersecurity Portfolio</title>
+<style>
     body {
-      font-family: 'Inter', sans-serif;
-      margin: 0;
-      background: linear-gradient(135deg, #8bb8ff, #b7eacb);
-      color: #ffffff;
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background-color: #0b3d91; /* Blue background */
+        color: white;
     }
 
-    /* HERO SECTION */
+    header {
+        background-color: #8fd19e; /* Light green header */
+        padding: 20px;
+        text-align: center;
+        color: black;
+    }
+
     .hero {
-      text-align: center;
-      padding: 80px 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 30px 20px;
+        text-align: center;
     }
 
-    .hero h1 {
-      font-size: 3rem;
-      margin-bottom: 10px;
-      font-weight: 700;
-    }
-
-    .hero p {
-      font-size: 1.2rem;
-      max-width: 700px;
-      margin: 0 auto;
-      opacity: 0.9;
-    }
-
-    /* CARD STYLE */
     .card {
-      background: rgba(255, 255, 255, 0.15);
-      backdrop-filter: blur(12px);
-      border-radius: 18px;
-      padding: 30px;
-      margin: 40px auto;
-      max-width: 900px;
-      color: #ffffff;
+        background: rgba(255, 255, 255, 0.15);
+        padding: 20px;
+        margin: 20px auto;
+        width: 80%;
+        border-radius: 15px;
+        backdrop-filter: blur(8px);
     }
 
-    /* CONTACT BAR */
-    .contact-bar {
-      display: flex;
-      justify-content: center;
-      gap: 40px;
-      margin-top: 20px;
-      font-size: 1.1rem;
-    }
-
-    .contact-bar a {
-      color: #ffffff;
-      text-decoration: underline;
-    }
-
-    /* SECTION HEADERS */
-    h2 {
-      text-align: center;
-      margin-top: 60px;
-      font-size: 2rem;
-      font-weight: 600;
-    }
-
-    /* PROJECT GRID */
     .project-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-      gap: 25px;
-      max-width: 1100px;
-      margin: 30px auto;
-      padding: 0 20px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 20px;
+        width: 90%;
+        margin: auto;
     }
 
     .project-card {
-      background: rgba(255, 255, 255, 0.18);
-      backdrop-filter: blur(10px);
-      border-radius: 16px;
-      padding: 20px;
-      color: #ffffff;
+        background: rgba(255, 255, 255, 0.15);
+        padding: 20px;
+        border-radius: 15px;
+        backdrop-filter: blur(8px);
     }
 
-    .project-card h3 {
-      margin-top: 0;
-    }
-
-    /* RESUME BUTTON */
     .resume-button {
-      display: block;
-      width: fit-content;
-      margin: 30px auto;
-      padding: 12px 28px;
-      background: #ffffff;
-      color: #4a4a4a;
-      border-radius: 25px;
-      font-weight: 600;
-      text-decoration: none;
-      transition: 0.2s;
+        display: inline-block;
+        padding: 10px 18px;
+        background-color: #8fd19e;
+        color: black;
+        text-decoration: none;
+        border-radius: 10px;
+        font-weight: bold;
     }
 
-    .resume-button:hover {
-      transform: scale(1.05);
+    .contact-bar {
+        margin-top: 15px;
+        font-size: 14px;
     }
-  </style>
+
+    .contact-bar a {
+        color: #8fd19e;
+        text-decoration: none;
+    }
+</style>
 </head>
 
 <body>
 
-  <!-- HERO -->
-<section class="hero" style="display:flex;flex-direction:column;align-items:center;gap:20px;">
+<header>
+    <h1>Naomi Taake – Cybersecurity Portfolio</h1>
+</header>
 
-  <img 
-    src="https://drive.google.com/uc?export=view&id=1pf7MmKut8Rt_BO58gLjvn-3fWnInJmwZ"
-    alt="Naomi Taake Profile Photo"
-    style="width:180px;height:180px;border-radius:50%;object-fit:cover;">
+<section class="hero">
+    <img 
+        src="https://drive.google.com/uc?export=view&id=1pf7MmKut8Rt_BO58gLjvn-3fWnInJmwZ"
+        alt="Naomi Taake Profile Photo"
+        style="width:180px;height:180px;border-radius:50%;object-fit:cover;">
 
-  <h1>Naomi Taake</h1>
-  <p>Senior Cybersecurity Major • York University • Vice President of FBLA & Theta Psi</p>
-
+    <h2>Senior Cybersecurity Major • York University</h2>
+    <p>Vice President of FBLA & Theta Psi • Student-Athlete • Cybersecurity Researcher</p>
 </section>
 
-  <!-- BIO CARD -->
-  <div class="card">
+<div class="card">
     <p>
-      I am a senior Cybersecurity major at York University and currently serve as the Vice President of FBLA and Theta Psi.
-      I was a member of both the volleyball and track teams, which taught me how to balance the demands of being a student
-      and an athlete while maintaining strong academic performance. Below is a collection of projects from my capstone and
-      upper‑level cybersecurity courses, as well as my resume.
+        I am a senior Cybersecurity major at York University and currently serve as the Vice President of FBLA 
+        and Theta Psi. I was a member of both the volleyball and track teams, which taught me how to balance 
+        the demands of being a student and an athlete while maintaining strong academic performance. Below is 
+        a collection of projects from my capstone and upper‑level cybersecurity courses, as well as my resume.
     </p>
 
     <div class="contact-bar">
-      <span>Email: <a href="mailto:naomianne3@gmail.com">naomianne3@gmail.com</a></span>
-      <span>LinkedIn: <a href="https://www.linkedin.com/in/naomi-taake-b8aa54356/" target="_blank">Profile</a></span>
+        <span>Email: <a href="mailto:naomianne3@gmail.com">naomianne3@gmail.com</a></span> •
+        <span>LinkedIn: <a href="https://www.linkedin.com/in/naomi-taake-b8aa54356/" target="_blank">Profile</a></span>
     </div>
-  </div>
-
-  <!-- PROJECTS -->
-  <h2>Projects</h2>
-  <div class="project-card">
-  <h3>Cybersecurity Operations Assessment</h3>
-  <p><strong>Jan 2026 – May 2026 • York University (Nebraska)</strong></p>
-  <p>
-    Conducted a comprehensive security assessment for an enterprise technology startup, evaluating mobile, cloud, and social engineering threat vectors. Performed mobile malware analysis using MobSF to identify spyware on corporate Android devices. Designed and analyzed phishing simulation campaigns to measure employee security awareness vulnerabilities. Implemented AWS cloud security hardening, including IAM role optimization, CloudTrail logging, and S3 access controls. Delivered an executive‑level cybersecurity report outlining multi‑domain risks and mitigation strategies.
-  </p>
-</div>
-    <div class="project-card">
-     <div class="project-card">
-  <h3>Active Reconnaissance & Network Scanning Lab</h3>
-  <p><strong>Jan 26 – Feb 2, 2026 • York University</strong></p>
-  <p>
-    Performed active reconnaissance on a simulated enterprise network as part of an ethical hacking lab. 
-    Used Nmap and its graphical interface Zenmap to identify live hosts, open ports, operating systems, 
-    and service versions across multiple subnets. Captured and analyzed scan traffic in Wireshark to 
-    observe SYN, ACK, TCP Connect, and UDP packet sequences. Conducted vulnerability scanning using 
-    Nessus and OpenVAS, identifying issues such as MS17‑010 and weak MySQL credentials. This project 
-    demonstrated the importance of accurate enumeration for understanding attack surfaces and preparing 
-    for technical exploitation.
-  </p>
-
-       
-  <a 
-    href="https://drive.google.com/file/d/1oL0_G6A8LimhbEGvUTDhsZs5PXVEqF6m/view?usp=drive_link" 
-    target="_blank" 
-    class="resume-button"
-    style="margin-top: 15px;">
-    View Lab Report
-  </a>
 </div>
 
+<!-- PROJECTS SECTION -->
+<h2 style="text-align:center; margin-top:40px;">Projects</h2>
 
+<div class="project-grid">
+
+    <!-- PROJECT 1 -->
     <div class="project-card">
-      <div class="project-card">
-  <h3>Lab: Securing a Wireless Network from Wardriving Attacks</h3>
-  <p><strong>York University • Cybersecurity Lab</strong></p>
-  <p>
-    In this lab, I simulated a wardriving reconnaissance scenario to discover and secure vulnerable Wi‑Fi networks. 
-    Using tools such as Kismet and LinSSID, I identified wireless access points, analyzed signal strength, and evaluated 
-    security configurations to determine exposure to wardriving threats. The lab emphasized detecting insecure networks 
-    and applying defensive measures to strengthen wireless security posture.
-  </p>
+        <h3>Cybersecurity Operations Assessment</h3>
+        <p><strong>Jan 2026 – May 2026 • York University</strong></p>
+        <p>
+            Conducted a comprehensive security assessment for an enterprise technology startup, evaluating mobile, 
+            cloud, and social engineering threat vectors. Performed mobile malware analysis using MobSF to identify 
+            spyware on corporate Android devices. Designed phishing simulation campaigns and implemented AWS cloud 
+            security hardening, including IAM role optimization, CloudTrail logging, and S3 access controls.
+        </p>
+    </div>
 
-  <!-- RESUME -->
-  <h2>Resume</h2>
-  <a href="https://docs.google.com/document/d/1QlGFO8gdWS8DoUs2dSTLB5ztw33gleky_I9sYlPaXZo/edit?usp=sharing" 
-     target="_blank" 
-     class="resume-button">
-     View My Resume
-  </a>
+    <!-- PROJECT 2 (UPDATED) -->
+    <div class="project-card">
+        <h3>Lab: Securing a Wireless Network from Wardriving Attacks</h3>
+        <p><strong>York University • Cybersecurity Lab</strong></p>
+        <p>
+            In this lab, I simulated a wardriving reconnaissance scenario to discover and secure vulnerable Wi‑Fi 
+            networks. Using tools such as Kismet and LinSSID, I identified wireless access points, analyzed signal 
+            strength, and evaluated security configurations to determine exposure to wardriving threats. The lab 
+            emphasized detecting insecure networks and applying defensive measures to strengthen wireless security.
+        </p>
+
+        <a 
+            href="https://drive.google.com/file/d/15QYO3tGPBGz93RXzqvtw-4js7j0ARlP_/view?usp=drive_link" 
+            target="_blank" 
+            class="resume-button">
+            View Lab Report
+        </a>
+    </div>
+
+    <!-- PROJECT 3 (Active Recon Lab) -->
+    <div class="project-card">
+        <h3>Active Reconnaissance & Network Scanning Lab</h3>
+        <p><strong>Jan 26 – Feb 2, 2026 • York University</strong></p>
+        <p>
+            Performed active reconnaissance on a simulated enterprise network using Nmap, Zenmap, Wireshark, Nessus, 
+            and OpenVAS. Identified hosts, open ports, OS versions, and vulnerabilities such as MS17‑010 and weak 
+            MySQL credentials. Captured and analyzed SYN, ACK, TCP Connect, and UDP packet sequences to understand 
+            network behavior and attack surfaces.
+        </p>
+
+        <a 
+            href="https://drive.google.com/file/d/1oL0_G6A8LimhbEGvUTDhsZs5PXVEqF6m/view?usp=drive_link" 
+            target="_blank" 
+            class="resume-button">
+            View Lab Report
+        </a>
+    </div>
+
+</div>
+
+<!-- RESUME BUTTON -->
+<div style="text-align:center; margin:40px 0;">
+    <a 
+        href="https://docs.google.com/document/d/1QlGFO8gdWS8DoUs2dSTLB5ztw33gleky_I9sYlPaXZo/edit?usp=sharing" 
+        target="_blank" 
+        class="resume-button">
+        View Resume
+    </a>
+</div>
 
 </body>
 </html>
