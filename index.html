@@ -2,211 +2,146 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Digital Portfolio - Naomi Taake</title>
+  <title>Digital Portfolio</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <style>
     body {
-      font-family: "Segoe UI", Arial, sans-serif;
+      font-family: Arial, sans-serif;
       margin: 0;
-      background: linear-gradient(135deg, #a8cfff, #d7b8ff); /* Soft blue → lavender */
-      color: white;
+      background: #f5f5f5;
+      color: #333;
     }
-
     header {
-      background: rgba(255, 200, 215, 0.9); /* Soft blush pink */
-      color: #4a2e2e;
-      padding: 2.5rem 1.5rem;
+      background: #222;
+      color: #fff;
+      padding: 2rem 1.5rem;
       text-align: center;
-      backdrop-filter: blur(8px);
-      box-shadow: 0 4px 20px rgba(0,0,0,0.15);
-      border-bottom: 2px solid rgba(255,255,255,0.4);
     }
-
     header h1 {
-      margin: 0;
-      font-size: 2.8rem;
-      font-weight: 700;
-      letter-spacing: 1px;
+      margin: 0 0 0.5rem;
     }
-
     header p {
-      margin-top: 0.5rem;
-      font-size: 1.15rem;
-      opacity: 0.9;
+      margin: 0.25rem 0;
     }
-
     main {
       max-width: 900px;
-      margin: 3rem auto;
-      padding: 2.5rem;
-      background: rgba(255, 255, 255, 0.18); /* Glass effect */
-      border-radius: 18px;
-      backdrop-filter: blur(12px);
-      box-shadow: 0 8px 30px rgba(0,0,0,0.25);
+      margin: 2rem auto;
+      padding: 0 1.5rem 3rem;
     }
-
     section {
-      margin-bottom: 2.5rem;
+      margin-bottom: 2rem;
+      background: #fff;
+      padding: 1.5rem;
+      border-radius: 8px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.08);
     }
-
     h2 {
-      border-bottom: 2px solid rgba(255,255,255,0.7);
+      margin-top: 0;
+      border-bottom: 2px solid #eee;
       padding-bottom: 0.5rem;
-      margin-bottom: 1.2rem;
-      font-size: 1.9rem;
-      font-weight: 600;
     }
-
-    h3, h4 {
-      color: #f7faff;
-      margin-top: 1.2rem;
+    .projects-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
     }
-
-    a {
-      color: #e3ffff;
-      font-weight: 600;
-      text-decoration: none;
-      transition: 0.2s ease;
-    }
-
-    a:hover {
-      color: white;
-      text-shadow: 0 0 8px rgba(255,255,255,0.8);
-    }
-
-    ul {
-      padding-left: 1.2rem;
-      line-height: 1.6;
-    }
-
-    .project {
-      background: rgba(255,255,255,0.15);
-      padding: 1rem;
-      border-radius: 12px;
+    .projects-list li {
       margin-bottom: 1rem;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-      transition: transform 0.2s ease;
     }
-
-    .project:hover {
-      transform: translateY(-4px);
+    .projects-list h3 {
+      margin: 0 0 0.25rem;
     }
-
+    .projects-list a {
+      color: #0066cc;
+      text-decoration: none;
+    }
+    .projects-list a:hover {
+      text-decoration: underline;
+    }
+    .contact-links a {
+      display: inline-block;
+      margin-right: 1rem;
+      margin-bottom: 0.5rem;
+      color: #0066cc;
+      text-decoration: none;
+    }
+    .contact-links a:hover {
+      text-decoration: underline;
+    }
     footer {
       text-align: center;
-      padding: 1.5rem;
+      padding: 1rem;
       font-size: 0.9rem;
-      color: white;
-      opacity: 0.85;
-      margin-top: 2rem;
+      color: #777;
     }
   </style>
 </head>
 <body>
-
   <header>
-    <h1>Naomi Taake</h1>
-    <p>[Short bio goes here — a sentence or two about who you are and what you do.]</p>
+    <!-- NAME PLACEHOLDER -->
+    <h1>Your Name Here</h1>
+
+    <!-- SHORT BIO PLACEHOLDER -->
+    <p>Short bio goes here. Mention your role, interests, and what you’re passionate about.</p>
   </header>
 
   <main>
-
-    <!-- Projects Section -->
+    <!-- PROJECTS SECTION -->
     <section id="projects">
       <h2>Projects</h2>
-
-      <div class="project">
-        <h3>Project Title 1</h3>
-        <p>[Short description of the project, technologies used, and your role.]</p>
-        <p><a href="#" target="_blank">View project</a></p>
-      </div>
-
-      <div class="project">
-        <h3>Project Title 2</h3>
-        <p>[Short description of the project, technologies used, and your role.]</p>
-        <p><a href="#" target="_blank">View project</a></p>
-      </div>
-
-    </section>
-
-    <!-- Resume Section -->
-    <section id="resume">
-      <h2>Resume</h2>
-
-      <p>
-        <a href="file:///C:/Users/Naomi/Downloads/Naomi%20Taake%20Resume%201.pdf" target="_blank">
-          Download Resume (PDF)
-        </a>
-      </p>
-
-      <h3>Skills</h3>
-      <ul>
-        <li>Public Speaking & Communication</li>
-        <li>Event Planning & Coordination</li>
-        <li>Multitasking & Time Management</li>
-        <li>Project Leadership & Conflict Resolution</li>
-        <li>Microsoft Office Suite & Google Workspace</li>
-        <li>Adobe Acrobat for Professional Documentation</li>
-        <li>Mentorship & Leadership Development</li>
-        <li>Cybersecurity Awareness & Strategic Thinking</li>
-      </ul>
-
-      <h3>Education & Achievements</h3>
-      <p><strong>York University — B.S. Cybersecurity</strong><br>
-      August 2024 – May 2026 | York, NE<br>
-      GPA: 3.74 — Dean’s List (Fall 2024 & Spring 2025)<br>
-      Business Club, FBLA Secretary, FBLA Vice President<br>
-      Selected for FBLA Cyber Security Challenge — Summer 2025</p>
-
-      <p><strong>Brewton-Parker College</strong><br>
-      August 2022 – April 2024 | Mount Vernon, GA<br>
-      GPA: 3.56 — Dean’s List (Fall 2023)<br>
-      GPA: 3.6 — Dean’s List (Fall 2024)</p>
-
-      <h3>Professional Experience</h3>
-
-      <h4>Network Operations Center Intern — Great Plains Communications</h4>
-      <p>June 2025 – August 2025 | Blair, NE</p>
-
-      <h4>York University — Outside & Middle Hitter (Volleyball Team)</h4>
-      <p>August 2024 – November 2026</p>
-
-      <h4>Club Volleyball Coach</h4>
-      <p>November 2024 – May 2025</p>
-
-      <h4>Brewton-Parker College — Outside Hitter & Track Athlete</h4>
-      <p>August 2022 – April 2024</p>
-
-      <h4>City of Montgomery — Mayor’s Internship Program</h4>
-      <p>June 2023 – August 2023</p>
-
-      <h4>Dunkin — Crew Member</h4>
-      <p>June 2020 – August 2023</p>
-
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact">
-      <h2>Contact & Links</h2>
-      <ul>
-        <li><strong>Email:</strong> <a href="mailto:naomianne3@gmail.com">naomianne3@gmail.com</a></li>
-        <li><strong>LinkedIn:</strong> 
-          <a href="https://www.linkedin.com/in/naomi-taake-b8aa54356" target="_blank">
-            linkedin.com/in/naomi-taake-b8aa54356
+      <ul class="projects-list">
+        <li>
+          <h3>Project Title 1</h3>
+          <p>Brief description of the project, technologies used, and what you contributed.</p>
+          <a href="https://example.com/project1" target="_blank" rel="noopener noreferrer">
+            View Project
           </a>
         </li>
+        <li>
+          <h3>Project Title 2</h3>
+          <p>Brief description of the project, technologies used, and what you contributed.</p>
+          <a href="https://example.com/project2" target="_blank" rel="noopener noreferrer">
+            View Project
+          </a>
+        </li>
+        <!-- Add more projects as needed -->
       </ul>
     </section>
 
+    <!-- RESUME SECTION -->
+    <section id="resume">
+      <h2>Resume</h2>
+      <!-- RESUME LINK PLACEHOLDER -->
+      <p>
+        You can view or download my resume here:
+        <a href="https://example.com/your-resume.pdf" target="_blank" rel="noopener noreferrer">
+          View Resume
+        </a>
+      </p>
+    </section>
+
+    <!-- CONTACT / LINKS SECTION -->
+    <section id="contact">
+      <h2>Contact & Links</h2>
+      <div class="contact-links">
+        <!-- EMAIL PLACEHOLDER -->
+        <a href="mailto:youremail@example.com">Email</a>
+
+        <!-- LINKEDIN PLACEHOLDER -->
+        <a href="https://www.linkedin.com/in/your-linkedin-username" target="_blank" rel="noopener noreferrer">
+          LinkedIn
+        </a>
+      </div>
+    </section>
   </main>
 
   <footer>
-    &copy; <span id="year"></span> Naomi Taake
+    &copy; <span id="year"></span> Your Name Here
   </footer>
 
   <script>
+    // Auto-update year in footer
     document.getElementById('year').textContent = new Date().getFullYear();
   </script>
-
 </body>
 </html>
